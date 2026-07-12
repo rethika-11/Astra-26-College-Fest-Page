@@ -1,6 +1,6 @@
 <h1 align="center">🎪 ASTRA ’26</h1>
 <p align="center"><b>Three unapologetic days of culture, competition, music and memories.</b></p>
-<p align="center">🔗 <a href="#">LIVE SITE — //rethika-11.github.io/Astra-26-College-Fest-Page/ </a> · 📅 14–16 March 2026 · 📍 Bengaluru</p>
+<p align="center"> · 📅 14–16 March 2026 · 📍 Bengaluru</p>
 
 ---
 ##Live Link
