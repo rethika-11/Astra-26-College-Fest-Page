@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Astra '26 — the annual college cultural festival." />
+  <title>ASTRA '26 | College Fest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Astra home">ASTRA<span>’26</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#events">Events</a><a href="#artists">Artists</a><a href="#contact">Contact</a>
+      <a class="nav-ticket" href="#tickets">Get passes <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> 14—16 MARCH 2026 · BENGALURU</p>
+        <h1>MAKE<br />YOUR <em>MARK.</em></h1>
+        <p class="hero-text">Three unapologetic days of culture, competition, music and the kind of memories that never leave your camera roll.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#tickets">Book your pass <b>→</b></a><a class="text-link" href="#events">Explore the fest <span>↓</span></a></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="sun">ASTRA<br />2026</div>
+        <div class="hero-image-wrap"><img src="https://images.pexels.com/photos/154147/pexels-photo-154147.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Crowd cheering at a live concert" /></div>
+        <p class="vertical-text">CULTURE · CHAOS · COMMUNITY</p>
+        <div class="scribble">Be here!</div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO DISCOVER <span>↓</span></a>
+    </section>
+
+    <section class="marquee" aria-label="Festival highlights"><div>CREATE · COMPETE · CELEBRATE · CONNECT · CREATE · COMPETE · CELEBRATE · CONNECT · </div></section>
+
+    <section class="about section" id="about">
+      <p class="section-label">01 / THE VIBE</p>
+      <div class="about-grid">
+        <h2 class="reveal">Not just<br />a <span>fest.</span></h2>
+        <div class="about-copy reveal"><p>ASTRA is where a campus turns into a universe. A coming together of bold ideas, wild talent and people who are ready to make some noise.</p><p>Whether you’re taking the stage, chasing a win or just here for the energy — there’s a spot with your name on it.</p><a class="arrow-link" href="#events">Why wait? Dive in <span>↘</span></a></div>
+      </div>
+      <div class="stat-row reveal"><div><strong>15K+</strong><span>Footfalls</span></div><div><strong>40+</strong><span>Events</span></div><div><strong>3</strong><span>Electric days</span></div><div><strong>1</strong><span>Unforgettable story</span></div></div>
+    </section>
+
+    <section class="events section" id="events">
+      <div class="section-heading"><p class="section-label">02 / PICK YOUR PLAYGROUND</p><h2>FIND YOUR<br /><span>FREQUENCY.</span></h2></div>
+      <div class="event-grid">
+        <a class="event-card large reveal" href="#tickets"><img src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Singer performing under stage lights" /><div><p>01 / MUSIC</p><h3>Battle of<br />the Bands <i>↗</i></h3></div></a>
+        <a class="event-card yellow reveal" href="#tickets"><div class="event-icon">✦</div><p>02 / DANCE</p><h3>Rhythm<br />Riot <i>↗</i></h3><small>Own the floor.</small></a>
+        <a class="event-card blue reveal" href="#tickets"><div class="event-icon">⌁</div><p>03 / DESIGN</p><h3>Canvas<br />Clash <i>↗</i></h3><small>Make it loud.</small></a>
+        <a class="event-card image-small reveal" href="#tickets"><img src="https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Friends laughing together at an event" /><div><p>04 / CULTURE</p><h3>Open Mic<br />Stories <i>↗</i></h3></div></a>
+      </div>
+    </section>
+
+    <section class="artists section" id="artists">
+      <div class="artist-photo reveal"><img src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="DJ performing to an enthusiastic audience" /><span class="sticker">LIVE<br />&amp; LOUD</span></div>
+      <div class="artist-info reveal"><p class="section-label">03 / AFTER DARK</p><h2>WHEN THE<br />SUN GOES<br /><span>DOWN.</span></h2><p>Headliners, hidden gems and one massive dance floor. Artist lineup dropping soon — you’ll want notifications on for this.</p><a href="#tickets" class="button button-light">Join the waitlist <b>→</b></a></div>
+    </section>
+
+    <section class="tickets section" id="tickets">
+      <p class="section-label">04 / YOUR ENTRY</p><h2 class="reveal">THIS IS YOUR<br /><span>SIGN.</span></h2>
+      <div class="ticket-card reveal"><div><span class="ticket-type">EARLY BIRD PASS</span><h3>All access.<br />Zero regrets.</h3><p>Entry to all three days, flagship events, and the Astra afterparty.</p></div><div class="ticket-bottom"><strong>₹499</strong><button class="button button-dark" id="passButton">Grab my pass <b>→</b></button></div></div>
+    </section>
+  </main>
+
+  <footer id="contact"><a class="brand" href="#home">ASTRA<span>’26</span></a><p>Made for the bold.<br />See you under the lights.</p><div><a href="mailto:hello@astra26.in">hello@astra26.in</a><a href="#home">Instagram ↗</a></div><small>© 2026 ASTRA FEST · ALL THE GOOD STUFF RESERVED</small></footer>
+  <div class="toast" role="status">Your pass is waiting for you — registrations open soon!</div>
+  <script src="script.js"></script>
+</body>
+</html>
