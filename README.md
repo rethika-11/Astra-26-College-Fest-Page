@@ -15,6 +15,7 @@ Repo: https://github.com/rethika-11/Astra-26-College-Fest-Page
 - **Day-wise schedule**
 - **Sponsors marquee** — infinite scrolling highlight strip
 - **Register Now** + contact footer
+- With the help of Codex
 
 ## 🗓 Schedule preview
 
